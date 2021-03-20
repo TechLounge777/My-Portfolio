@@ -8,6 +8,12 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+.offset:before {
+    display: block;
+    content: "";
+    height: 6rem;
+}
+
 .navbar {
     text-transform: uppercase;
     font-size: 14px;
@@ -26,8 +32,6 @@ body {
 .navbar-dark .navbar-nav .nav-link:hover {
     color: #1ebba3;
 }
-
-
 
 .heading-content {
     position: absolute;
@@ -137,6 +141,51 @@ sec1 p{
 /*-------Newsletter End------------*/
 
 
+/*----------Media Queries------------*/
 
+@media screen and (max-width: 767px) {
+    /*----------Tablets------------*/
+    .navbar {
+        letter-spacing: 0.1rem;
+        padding: 10px 0;
+    }
+    
+    .heading-content h5{
+        font-size: 3em;
+    }
+    
+    .heading-content h1{
+        font-size: 3em;
+    }
+    
+    .heading-content p{
+        font-size: 0.9em;
+    }
+  }
+
+  @media screen and (max-width: 479px) {
+    /*----------smartphones------------*/
+    .navbar {
+        letter-spacing: 0.1rem;
+        padding: 7px 0;
+    }
+    
+    .heading-content h5 {
+        font-size: 2em;
+    }
+    
+    .heading-content h1 {
+        font-size: 2em;
+    }
+    
+    .heading-content p {
+        font-size: 0.7em;
+    }
+
+    #contact .post-heading h3 {
+        font-size: 2em;
+    }
+    
+  }
 
 
