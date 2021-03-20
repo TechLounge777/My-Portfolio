@@ -121,6 +121,19 @@ body {
     text-align: center;
     background: #f8fafb;
 }
+
+sec1 h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 50px;
+}
+
+sec1 p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
 /*-------Newsletter End------------*/
 
 
